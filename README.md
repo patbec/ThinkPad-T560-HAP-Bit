@@ -99,7 +99,7 @@ Ein Ordner erstellen mit dem wir arbeiten werden
 mkdir ThinkPad-T560 && cd ThinkPad-T560
 ```
 
-Die me_clenaer Repository herunterladen
+Die me_cleaner Repository herunterladen
 ```
 git clone https://github.com/corna/me_cleaner
 ```
