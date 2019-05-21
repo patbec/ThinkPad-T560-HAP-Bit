@@ -1,6 +1,9 @@
 # ThinkPad T560 HAP-Bit setzen
 
 ![Banner](/Images/banner.jpg)
+<p align="right">
+<a href="https://github.com/patbec/ThinkPad-T560-HAP-Bit/blob/master/README_EN.md">Read this page in English</a>
+</p>
 
 ## Beschreibung
 
