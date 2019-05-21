@@ -1,4 +1,4 @@
-# Set ThinkPad T560 HAP bit
+# Set ThinkPad T560 HAP-Bit
 
 ![Banner](/Images/banner.jpg)
 <p align="right">
@@ -80,7 +80,7 @@ Windows OS Version : 7.0
 
 As expected, the state `Normal` is  output under `CurrentState`.
 
-Now boot into the BIOS and ** activate the service mode**,  which temporarily deactivates the internal battery. It will be deactivated the next time it is started up.
+Now boot into the BIOS and **activate the service mode**,  which temporarily deactivates the internal battery. It will be deactivated the next time it is started up.
 ```
 F1 -> Config -> Power -> Disable Built-in Battery
 ```
@@ -146,7 +146,7 @@ Reading flash... done.
 Set the HAP bit, here there are 2 different possibilities:
 > me_cleaner sets this HAP/AltMeDisable bit when the -s (enable only the kill-switch, but don't remove the extra code from the firmware) or the -S (enable the kill-switch and remove the extra code from the firmware) are passed.
 
-We will ** only activate the kill-switch** and save the edited firmware after `patched_ME_11.6_Consumer_T560.bin`.
+We will **only activate the kill-switch** and save the edited firmware after `patched_ME_11.6_Consumer_T560.bin`.
 ```
 sudo me_cleaner/me_cleaner.py -s factory_ME_11.6_Consumer_T560.bin -O patched_ME_11.6_Consumer_T560.bin
 Full image detected
