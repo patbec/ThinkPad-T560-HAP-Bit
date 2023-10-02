@@ -7,16 +7,13 @@
 
 ## Description
 
-Here a small tutorial how to completely deactivate the Intel Management Engine (ME)
-on a ThinkPad with Skylake CPU. The whole thing is made possible by setting the
-HAP bit and requires flashing the EEPROM with a modified firmware.
+Here a small tutorial how to completely deactivate the Intel Management Engine (ME) on a ThinkPad with Skylake CPU. The whole thing is made possible by setting the HAP bit and requires flashing the EEPROM with a modified firmware.
 This tutorial explains how to use a ThinkPad T560 (`20FH0023GE`) with the **ME 11.6** firmware.
 
 ### Preparation
 
 We need an external device to read the EEPROM and rewrite it with a different
-firmware. The laptop CPU itself has neither read nor write access to the required flash
-areas
+firmware. The laptop CPU itself has no write access to the required flash areas.
 
 Hardware
 - WINGONEER EEPROM Routing USB Programmer **CH341A Writer** LCD Flash for 25 SPI Serie 24 I2C
@@ -28,10 +25,10 @@ device there are the following alternatives:
 - Using a Live Linux
 - Buy a RaspberryPi
 
-## The execution
+## Guide
 
-The execution is divided into 3 steps:
-1. Updating the Laptop Firmware
+The guide is divided into 3 steps:
+1. Updating the Laptop firmware
 2. Install the required software
 3. Create the modified firmware and describe the EEPROM
 

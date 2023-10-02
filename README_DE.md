@@ -2,7 +2,7 @@
 
 ![Banner](/Images/banner.jpg)
 <p align="right">
-<a href="https://github.com/patbec/ThinkPad-T560-HAP-Bit/blob/master/README.md">Diese Seite auf Englisch lesen</a>
+<a href="https://github.com/patbec/ThinkPad-T560-HAP-Bit/blob/master/README.md">Read this page in english</a>
 </p>
 
 ## Beschreibung
@@ -14,7 +14,7 @@ Dieses Tutorials wie anhand eines ThinkPad T560 (`20FH0023GE`) mit der **ME 11.6
 
 ### Vorbereitung
 
-Wir brauchen ein externes Gerät um den EEPROM auszulesen und mit einer veränderten Firmware neu zu beschreiben. Die Laptop CPU selbst hat auf die erforderten Flash-Bereiche weder Lese- noch Schreibzugriff.
+Wir brauchen ein externes Gerät um den EEPROM auszulesen und mit einer veränderten Firmware neu zu beschreiben. Die Laptop CPU selbst hat auf die erforderlichen Flash-Bereiche keinen Schreibzugriff.
 
 Hardware
 - WINGONEER EEPROM Routing USB Programmer **CH341A Writer** LCD Flash für 25 SPI Serie 24 I2C
